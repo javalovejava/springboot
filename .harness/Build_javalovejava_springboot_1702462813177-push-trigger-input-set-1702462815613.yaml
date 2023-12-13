@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_javalovejava_springboot_1702462813177-push-trigger-input-set
+  identifier: Build_javalovejava_springboot_1702462813177pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_javalovejava_springboot_1702462813177
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
